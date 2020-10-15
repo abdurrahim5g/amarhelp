@@ -1,0 +1,260 @@
+
+/*responsive css*/
+@media all and ( max-width: 1199px ) {
+
+.container {
+	max-width: 991px;
+}
+
+.header-menu .container {
+    width: 100%;
+    max-width: 100%;
+}
+
+.menu-icon {
+    display: block;
+}
+
+.sign-up {
+    position: absolute;
+    right: 65px;
+    top: -16px;
+}
+.sign-up a i {
+    display: block;
+}
+
+.sign-up a span {
+    display: none;
+}
+
+.sign-up a {
+    padding: 10px 22px 10px 15px;
+}
+
+.sign-up li:nth-child(3) a {
+    padding: 10px 10px 10px 22px;
+}
+
+.header-menu {
+	padding: 10px 0;
+}
+.header-menu .logo {
+	max-width: 180px;
+}
+
+.header-menu .col-lg-2 {
+	flex: 0 0 50% ;
+	max-width: 50% ;
+}
+
+.header-menu .row {
+	justify-content: flex-end;
+}
+.header-menu .col-lg-6,
+.header-menu .col-lg-2:last-child{
+	display: none;
+}
+
+}
+
+
+/* -------------- max-width : 991px ----------------------*/
+@media all and ( max-width: 991px ) {
+
+.container {
+	max-width: 768px;
+}
+
+.header-top, .header-top ul {
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.header-top ul li:after {
+    display: none !important;
+}
+
+.header-top ul li {
+    margin: 0 20px 10px;
+}
+
+.header-top .row {
+    flex-direction: column-reverse;
+}
+
+.hero-content h2, .hero-content h1 {
+    font-size: 50px;
+}
+
+.mission-vission .mission, .mission-vission .vission {
+    margin: 0 0 40px;
+}
+
+section.trust-area .feature-item {
+    margin: 50px 0 0 0;
+}
+
+.counter-area .counter-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    border: 0;
+    margin: 0 0 30px;
+    position: relative;
+}
+
+.counter-area {
+    border: 0;
+}
+
+.counter-area .counter-item .icon-box {
+    top: 0;
+    margin-bottom: 40px;
+}
+
+.counter-area .counter-item::before {content: '';position: absolute;width: 100%;border-top: 1px solid #ededed;left: 0;top: 50px;}
+
+.teem-member .col-lg-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin: 30px 0 0 0;
+}
+
+.volenter-form {
+    margin: 30px 0;
+}
+
+footer.footer-area .col-lg-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.single-footer {
+    margin: 0 0 30px;
+}
+
+footer.footer-area .row {
+    align-items: inherit;
+}
+
+.footer-bottom ul {
+    margin: 30px 0 0 0;
+    text-align: left;
+}
+
+.feature-item .feature-box h5 br {
+    display: none;
+}
+
+}
+
+
+@media all and (max-width: 767px) {
+
+.header-top ul li {
+    display: block;
+}
+
+.header-top ul li:after {
+    display: none;
+}
+
+.sign-up a {
+    /*padding-top: 8px !important;*/
+    /*padding-bottom: 8px !important;*/
+    font-size: 13px;
+}
+
+.sign-up li:nth-child(2) {
+    width: 20px;
+    height: 20px;
+    line-height: 19px;
+}
+
+.hero-content h2, .hero-content h1 {
+    font-size: 35px;
+}
+
+.hero-content h4::before, .hero-content h4::after {
+    display: none;
+}
+
+.hero-content p {
+    font-size: 15px;
+}
+
+.hero-content h3 {
+    font-size: 18px;
+}
+
+.heading h2 {
+    font-size: 25px;
+}
+
+.heading p {
+    font-size: 16px;
+}
+
+.cause-item h3 a {
+    font-size: 16px;
+}
+
+.feature-item .feature-box i {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 25px;
+}
+
+.teem-member .col-lg-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.volenter-form .input-box {
+    width: 100%;
+    margin: 0 0 20px  !important;
+}
+
+.volenter-form .submit ul {
+    display: inherit;
+    text-align: center;
+}
+
+.volenter-form .submit .amar-btn {
+    float: none;
+    margin: 20px 0 0 0;
+}
+
+footer.footer-area .col-lg-3 {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+.footer-bottom .f-logo img {
+    width: 60px;
+}
+
+.footer-bottom .f-logo {
+    padding: 0 0 0 80px;
+}
+
+.owl-nav.disabled {
+    display: none !important;
+}
+
+.logo-box {
+    width: 100px;
+    height: 100px;
+    right: 3%;
+    top: 3%;
+    padding: 10px;
+}
+
+.logo-box::before {
+    left: 4px;
+    top: 4px;
+}
+
+}
