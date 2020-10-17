@@ -68,7 +68,7 @@ li {
 body,
 p {
     color: #858585;
-    line-height: 1.6;
+    /*! line-height: 1.6; */
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
 }
@@ -1152,7 +1152,7 @@ section.volenter-area {
 }
 
 .volenter-form .gender input {
-    display: block;
+    display:  none !important;
 }
 
 .volenter-form .gender label {
@@ -1172,6 +1172,11 @@ section.volenter-area {
 input[type="radio"]:checked  + label {
     background: #00aa4f;
     color: #fff;
+}
+
+.input-box label {
+  line-height: 1;
+  margin: 0;
 }
 
 /*  10. volenter area end  --------------------------*/
